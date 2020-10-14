@@ -5,6 +5,7 @@ Hi everyone, I am Noel a Y2 CS student at NUS. I currently work part-time for Ho
 
 ## Objectives:
 During this workshop we will build a terminal interface for playing go.
+
 From this we will learn the following parts:
 - Declarative programming with Haskell
 - Types

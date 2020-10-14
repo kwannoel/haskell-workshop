@@ -1,10 +1,7 @@
 # Setting up the environment
 
-GHC + cabal:
-- https://www.haskell.org/platform/
+- Install GHC + cabal:
 
-Stack:
-- https://docs.haskellstack.org/en/stable/README/
+  https://www.haskell.org/platform/
 
-Exercises:
-- 
+- Clone the project:
