@@ -2,6 +2,10 @@
 
 module Game.Go.Launch where
 
+import           Game.Go.Ui (getBoardSize, startGame)
 
-initBoard = undefined
-runGame = undefined
+
+runGame :: IO ()
+runGame = do
+    size <- getBoardSize
+    startGame size

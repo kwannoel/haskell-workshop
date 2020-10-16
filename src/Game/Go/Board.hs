@@ -1,4 +1,14 @@
-module Game (someFunc) where
+module Game.Go.Board (Coordinates, GoBoard, GoBoardSize, createBoard) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import           Data.Array (Array)
+
+
+data GoBoard = GoBoard { unGoGame :: Array Coordinates GoBoard }
+
+type Coordinates = (X, Y)
+type X = Int
+type Y = Int
+
+type GoBoardSize = Int
+
+createBoard = undefined
