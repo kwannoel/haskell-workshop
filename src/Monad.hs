@@ -1,4 +1,6 @@
-module Main where
+-- |
+
+module Monad where
 
 main :: IO ()
 main = putStrLn "Hello World!"

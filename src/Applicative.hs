@@ -1,4 +1,6 @@
-module Main where
+-- |
+
+module Applicative where
 
 main :: IO ()
 main = putStrLn "Hello World!"
