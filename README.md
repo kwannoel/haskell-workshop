@@ -6,7 +6,7 @@
 
   https://www.haskell.org/platform/
 
-  We will need `ghc`.
+  We will need `ghci`.
 
 - Clone the project:
   
@@ -17,5 +17,9 @@
 # Running + Compiling the files
 
 ``` sh
-runghc <file>
+ghci <file>
 ```
+
+# Ghci commands
+
+- Reload `:r`

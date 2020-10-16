@@ -4,14 +4,14 @@
 Hi everyone, I am Noel a Y2 CS student at NUS. I currently work part-time for Holmusk, writing Haskell and mainly doing backend work.
 
 ## Objectives:
-During this workshop we will build a terminal interface for playing go.
+During this workshop we will recognize recurring patterns in our code and learn ways of abstracting them.
 
-From this we will learn the following parts:
-- Declarative programming with Haskell
 - Types
-- Abstractions
-- Imperative programming with Haskell
-- Ecosystem*
+- Typeclasses
+- Monoids
+- Functors
+- Applicatives
+- Monads
 
 ## What is Haskell?
 - Purely functional programming language
@@ -68,6 +68,10 @@ We will talk about that after going a bit into types.
 ## Types
 - Strong vs Weak typing
 - Static vs Dynamic typing
+
+---
+
+# Idea dump
 
 ## Getting rid of boilerplate
 - Managing state
