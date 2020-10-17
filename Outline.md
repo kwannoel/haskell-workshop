@@ -1,12 +1,18 @@
 # Haskell workshop
 
-## Introduction:
+## Introduction
 Hi everyone, I am Noel a Y2 CS student at NUS. I currently work part-time for Holmusk, writing Haskell and mainly doing backend work.
 
-## Objectives:
-During this workshop we will recognize recurring patterns in our code and learn ways of abstracting them.
+## Objectives
+First we will go through basic Haskell syntax.
+We will then recognize recurring patterns in our code and learn ways of abstracting them.
 
+## Outline
+
+- Indentation
 - Types
+- Pattern matching
+- functions
 - Typeclasses
 - Monoids
 - Functors

@@ -11,12 +11,16 @@ id :: a -> a
 id = undefined
 
 -- Addition
-
--- Display string
+add :: Num a => a -> a
+add = undefined
 
 -- Safe head of list
+safeHead :: [a] -> Maybe a
+safeHead = undefined
 
 -- Safe tail of list
+safeTail :: [a] -> Maybe [a]
+safeTail = undefined
 
 ----------------------------
 -- Higher order functions --
