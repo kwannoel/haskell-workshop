@@ -12,3 +12,23 @@ data User = User String String
 
 showName :: User -> String
 showName (User fn ln) = fn ++ " " ++ ln
+
+-- Pattern matching on infix data constructors
+
+data Product a b = a :*: b
+
+productFst :: Product a b -> a
+productFst (a :*: _) = a
+
+productSnd :: Product a b-> b
+productSnd (_ :*: b) = b
+
+-- | Exercise 1)
+-- Pattern matching on nonEmpty List
+data NonEmpty a = a :| [a]
+
+head :: NonEmpty a -> a
+head = undefined
+
+tail :: NonEmpty a -> [a]
+tail = undefined
