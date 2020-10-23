@@ -31,13 +31,31 @@ data List a = Cons a (List a)
 instance Eq a => Eq (Identity a) where
     Identity a == Identity b = a == b
 
+instance Eq Result where
+    (==) = undefined
+
+instance Eq Receipt where
+    (==) = undefined
+
 -- Ord typeclass -- ordering
 instance Ord a => Ord (Identity a) where
     Identity a `compare` Identity b = a `compare` b
 
+instance Ord Result where
+    compare = undefined
+
+instance Ord Receipt where
+    compare = undefined
+
 -- Show typeclass -- show the type as a string
 instance Show a => Show (Identity a) where
     show (Identity a) = "Identity " ++ show a
+
+instance Show Result where
+    show = undefined
+
+instance Show Receipt where
+    show = undefined
 
 main :: IO ()
 main = putStrLn "Hello World!"

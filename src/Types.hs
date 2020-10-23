@@ -35,8 +35,10 @@ userNoel = User "Noel" 22
 -- Sum types (Disjunction / xor)
 data Result = Success | Failure -- Sum type with cardinality 2
 
+
 -- | Exercise 2.
--- Construct a Sum type with cardinality 5
+-- Construct an optional type
+-- data Optional a = ...
 
 -- Recursive types
 -- data [a] = [] | a : [a]

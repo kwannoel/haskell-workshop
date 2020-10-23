@@ -11,7 +11,7 @@ id :: a -> a
 id = undefined
 
 -- Addition
-add :: Num a => a -> a
+add :: Num a => a -> a -> a
 add = undefined
 
 -- Safe head of list

@@ -7,12 +7,18 @@ Hi everyone, I am Noel a Y2 CS student at NUS. I currently work part-time for Ho
 First we will go through basic Haskell syntax.
 We will then recognize recurring patterns in our code and learn ways of abstracting them.
 
+## The big picture
+
+What do we care about in programs?
+- Composition
+- Declarative programs
+
 ## Outline
 
-- Indentation
 - Types
 - Pattern matching
 - functions
+- Higher Order functions
 - Typeclasses
 - Monoids
 - Functors
