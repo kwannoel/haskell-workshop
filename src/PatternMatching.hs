@@ -1,4 +1,5 @@
 -- | Learn Haskell's pattern matching syntax
+-- Declarative
 
 module PatternMatching where
 

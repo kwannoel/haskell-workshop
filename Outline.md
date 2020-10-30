@@ -3,6 +3,15 @@
 ## Introduction
 Hi everyone, I am Noel a Y2 CS student at NUS. I currently work part-time for Holmusk, writing Haskell and mainly doing backend work.
 
+**This is a fairly informal workshop, do ask questions if you are interested in certain areas / unclear about anything.**
+
+Also note that I will prioritize intuition and application rather than giving formal definitions of concepts.
+
+
+## Admin
+
+Pull the `main` branch of as I have made some changes.
+
 ## Objectives
 First we will go through basic Haskell syntax.
 We will then recognize recurring patterns in our code and learn ways of abstracting them.
@@ -11,6 +20,7 @@ We will then recognize recurring patterns in our code and learn ways of abstract
 
 What do we care about in programs?
 - Composition
+- Relationships
 - Declarative programs
 
 ## Outline

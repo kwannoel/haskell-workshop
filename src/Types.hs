@@ -3,7 +3,10 @@
 module Types where
 
 -- Dynamic vs Static typing
+-- Runtime vs compile time typechecking
+
 -- Strong vs Weak types
+-- Using a value of one type as though it were another
 
 one :: Int
 one = 1
@@ -19,8 +22,8 @@ data User = User Name Age
 type Name = String
 type Age = Int
 
-userNoel :: User
-userNoel = User "Noel" 22
+userJason :: User
+userJason = User "Jason" 22
 
 -- | Exercise 1.
 -- Construct a product type for a food order
