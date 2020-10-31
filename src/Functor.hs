@@ -21,13 +21,15 @@ class Functor f where
 data Identity a = Identity a
 
 instance Functor Identity where
-    fmap = undefined
+    fmap f (Identity a) = Identity $ f a
 
 instance Functor [] where
-    fmap = undefined
+    fmap _ []     = []
+    fmap f (x:xs) = f x : fmap f xs
+    -- fmap (+ 1) [1, 2, 3, 4] = [2, 3, 4, 5]
 
 instance Functor ((->) a) where
-    fmap = undefined
+    fmap f g = f . g
 
 main :: IO ()
 main = putStrLn "Hello World!"

@@ -11,16 +11,26 @@ class Identify a where
     identify :: a -> a
 
 instance Identify Bool where
-    identify b = b
+    identify True  = True
+    identify False = False
+--    identify b = b
 
 -- | Exercise 1
 -- For the following datatypes,
+
+instance Identify Receipt where
+    identify a = a
+
+instance Identify Result where
+    identify a = a
 
 newtype Identity a = Identity a
 
 data Result = Failure | Success
 
 data Receipt = Receipt String Id Price
+
+
 type Id = Int
 type Price = Float
 
@@ -32,10 +42,12 @@ instance Eq a => Eq (Identity a) where
     Identity a == Identity b = a == b
 
 instance Eq Result where
-    (==) = undefined
+    Failure == Failure = True
+    Success == Success = True
+    _ == _             = False
 
 instance Eq Receipt where
-    (==) = undefined
+    Receipt s i p == Receipt s1 i1 p1 = s == s1 && i == i1 && p == p1
 
 -- Ord typeclass -- ordering
 instance Ord a => Ord (Identity a) where
