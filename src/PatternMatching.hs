@@ -12,7 +12,7 @@ showResult Failure = "Failure"
 data User = User String String
 
 showName :: User -> String
-showName (User fn ln) = fn ++ " " ++ ln
+showName (User firstName lastName) = firstName ++ " " ++ lastName
 
 -- Pattern matching on infix data constructors
 
@@ -29,7 +29,7 @@ productSnd (_ :*: b) = b
 data NonEmpty a = a :| [a]
 
 head :: NonEmpty a -> a
-head = undefined
+head (a :| _) = a
 
 tail :: NonEmpty a -> [a]
-tail = undefined
+tail (_ :| as) = as
